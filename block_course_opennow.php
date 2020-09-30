@@ -82,7 +82,7 @@ class block_course_opennow extends block_base {
         if (up1_meta_get_text($this->page->course->id, 'up1datearchivage') == 0) {
             return null;
         }
-        $cat = coursecat::get($this->page->course->category);
+        $cat = core_course_category::get($this->page->course->category);
         if (preg_match('@^\d:(\d{4}-\d{4})/@', $cat->idnumber, $matches)) {
             return $matches[1];
         } else {
