@@ -15,3 +15,6 @@ $string['closecourse'] = 'Close the course';
 $string['statusopen'] = 'This course is open to students';
 $string['opencourse'] = 'Open the course';
 $string['startdate'] = 'Course start';
+$string['course_opennow:addinstance'] = 'Ajouter un block course_opennow';
+$string['course_opennow:myaddinstance'] = 'Impossible';
+$string['course_opennow:openarchived'] = 'Ouvrir/fermé un cours archivé';
